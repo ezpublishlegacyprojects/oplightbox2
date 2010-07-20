@@ -1,0 +1,48 @@
+Extension oplightbox2 for eZ publish
+
+
+Requirements
+============
+See the README file
+
+
+Getting and installing eZ publish
+=================================
+
+Installing the extension
+========================
+1. Download the package.
+2. Copy the downloaded package into the 'extension' directory of your
+   eZ publish installation.
+3. Unpack the files in the distribution.
+4. Enable the extension in eZ publish.
+   Regenerate the extensions autoloads config if enabling the extension by hand.
+5. Clear the caches for the administration interface
+6. Create a image gallery or use an existing one
+7. Have fun !!!
+
+
+Troubleshooting
+===============
+For any problem or question, please post on the extension forums on projects.ez.no
+
+Known issues
+============
+1. Configuration site.ini[DesignSettings].SiteDesign and AdditionalSiteDesignList[].
+The file site.ini.append.php should be configured as bellow:
+
+[DesignSettings]
+SiteDesign=ezflow
+AdditionalSiteDesignList[]
+AdditionalSiteDesignList[]=ezwebin
+AdditionalSiteDesignList[]=base
+AdditionalSiteDesignList[]=standard
+
+Otherwise you can change the name of the design directory in oplightbox2/design/ezflow to the one you use.
+
+2. Close button and loading image are written in hard code in file:
+extension/oplightbox2/design/ezflow/javascript/lightbox/lightbox.js
+
+line 49.    fileLoadingImage:        '/extension/oplightbox2/design/ezflow/images/loading.gif',
+line 50.    fileBottomNavCloseImage: '/extension/oplightbox2/design/ezflow/images/closelabel.gif',
+

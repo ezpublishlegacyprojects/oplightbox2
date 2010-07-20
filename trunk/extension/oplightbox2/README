@@ -1,0 +1,25 @@
+Extension oplightbox2 for eZ publish
+====================================
+
+Goal:
+-----
+
+- Embed lightbox 2 image gallery in eZFlow or eZWebin galleries
+
+"Lightbox is a simple, unobtrusive script used to overlay images on the current page.
+It's a snap to setup and works on all modern browsers."
+by Lokesh Dhakar
+
+- You can find more informations here: http://www.huddletogether.com/projects/lightbox2/
+
+
+Requirements:
+-------------
+
+- eZ Publish 4.x or later
+- eZFlow or eZWebin
+
+Installation and Troubleshooting:
+---------------------------------
+
+- Find more information in INSTALL file ate the root of this extension
