@@ -1,10 +1,16 @@
 {* Image - Gallery line view *}
+{if $node.data_map.image.content.imagelarge.text}
+    {def $alt_text = $node.data_map.image.content.imagelarge.text}
+{else}
+    {def $alt_text = $node.data_map.image.object.name}
+{/if}
+
 <div class="content-view-galleryline">
     <div class="class-image">
 
     <div class="attribute-image"{if is_set($#image_style)} style="{$#image_style}"{/if}>
         <p>
-			<a title="{$node.data_map.caption.data_text|wash(xhtml)}" href={$node.data_map.image.content.imagelarge.url|ezroot()} rel="lightbox[diaporama_{$node.parent.node_id}]">{attribute_view_gui attribute=$node.data_map.image image_class=gallerythumbnail}</a>
+			<a title="{$alt_text|wash(xhtml)}" href={$node.data_map.image.content.imagelarge.url|ezroot()} rel="lightbox[diaporama_{$node.parent.node_id}]">{attribute_view_gui attribute=$node.data_map.image image_class=gallerythumbnail}</a>
 		</p>
     </div>
 
