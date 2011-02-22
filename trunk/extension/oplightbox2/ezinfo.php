@@ -4,7 +4,7 @@ class oplightbox2Info
     static function info()
     {
         return array( 'Name' => "opLightBox2",
-                      'Version' => "v0.1",
+                      'Version' => "v0.2",
                       'Copyright' => "Copyright (C) 2010 O. Portier",
                       'Info_url' => "<a href='http://projects.ez.no/oplightbox2/'>http://projects.ez.no/oplightbox2/</a>",
             		  'License' => "GNU General Public License v2.0",

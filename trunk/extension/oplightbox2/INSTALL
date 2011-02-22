@@ -40,6 +40,8 @@ AdditionalSiteDesignList[]=standard
 
 Otherwise you can change the name of the design directory in oplightbox2/design/ezflow to the one you use.
 
+=> This bug have been fixed with the extension.xml file created at the root of the extension.
+
 2. Close button and loading image are written in hard code in file:
 extension/oplightbox2/design/ezflow/javascript/lightbox/lightbox.js
 
