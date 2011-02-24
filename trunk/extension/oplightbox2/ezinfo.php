@@ -9,7 +9,12 @@ class oplightbox2Info
                       'Info_url' => "<a href='http://projects.ez.no/oplightbox2/'>http://projects.ez.no/oplightbox2/</a>",
             		  'License' => "GNU General Public License v2.0",
                       'Includes the following third-party software' =>
-                            array ( 'Name' => 'LightBox 2',
+                      array ( 'Name' => 'Pretty Photo',
+                                    'Version' => 'v3',
+                                    'copyright' => 'Copyright (C) Stephane Caron',
+                                    'License' => 'Creative Commons Attribution 2.5 License',
+                                    'More information' => "<a href='http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/'>http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a>" ),
+                      array ( 'Name' => 'LightBox 2',
                                     'Version' => 'v2.04',
                                     'copyright' => 'Copyright (C) Lokesh Dhakar',
                                     'License' => 'Creative Commons Attribution 2.5 License',

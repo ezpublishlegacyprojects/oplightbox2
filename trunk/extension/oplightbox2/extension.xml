@@ -5,6 +5,26 @@
         <version>0.2</version>
         <copyright>Copyright (C) 2010 O. Portier</copyright>
         <license>GNU General Public License v2.0</license>
+		<info_url>http://projects.ez.no/oplightbox2/</info_url>
+
+        <software>
+            <uses>
+                <name>Pretty Photo</name>
+                <license>Creative Commons Attribution 2.5 License</license>
+                <copyright>Copyright (C) Stephane Caron</copyright>
+                <info_url>http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone</info_url>
+                <version>v3</version>
+            </uses>
+            <uses>
+                <name>LightBox 2</name>
+                <license>Creative Commons Attribution 2.5 License</license>
+                <copyright>Copyright (C) Lokesh Dhaka</copyright>
+                <info_url>http://www.huddletogether.com/projects/lightbox2/</info_url>
+                <version>v2.04</version>
+            </uses>
+
+
+        </software>
     </metadata>
 
     <dependencies>

@@ -8,6 +8,7 @@ See the README file
 
 Getting and installing eZ publish
 =================================
+Go to ez.no or share.ez.no
 
 Installing the extension
 ========================
@@ -16,10 +17,25 @@ Installing the extension
    eZ publish installation.
 3. Unpack the files in the distribution.
 4. Enable the extension in eZ publish.
-   Regenerate the extensions autoloads config if enabling the extension by hand.
-5. Clear the caches for the administration interface
-6. Create a image gallery or use an existing one
-7. Have fun !!!
+5. Regenerate the extensions autoloads config if enabling the extension by hand.
+6. Clear the caches
+7. Create a image gallery or use an existing one
+8. Add images and videos (video_flash_player)
+9. Have fun !!!
+
+Alternate configuration
+========================
+You can use PrettyPhoto or lightbox2 Javascript library. PrettyPhoto is now the default configuration
+Just choose the one you prefer
+ - lightbox support only images
+ - prettyphoto support images, extrenal pages in iframe and videos (YouTube, Vimeo, ...)
+
+To do so, override the settings/oplightbox2.ini file and change or uncomment the following line :
+For PrettyPhoto
+LightBoxAPI=prettyphoto
+
+For Lightbox2
+LightBoxAPI=lightbox
 
 
 Troubleshooting
@@ -28,7 +44,7 @@ For any problem or question, please post on the extension forums on projects.ez.
 
 Known issues
 ============
-1. Configuration site.ini[DesignSettings].SiteDesign and AdditionalSiteDesignList[].
+1. [FIXED] Configuration site.ini[DesignSettings].SiteDesign and AdditionalSiteDesignList[].
 The file site.ini.append.php should be configured as bellow:
 
 [DesignSettings]
