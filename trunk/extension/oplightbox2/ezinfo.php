@@ -11,7 +11,7 @@ class oplightbox2Info
                       'Includes the following third-party software' =>
                       array ( 'Name' => 'Pretty Photo',
                                     'Version' => 'v3',
-                                    'copyright' => 'Copyright (C) Stephane Caron',
+                                    'copyright' => 'Copyright (C) StŽphane Caron',
                                     'License' => 'Creative Commons Attribution 2.5 License',
                                     'More information' => "<a href='http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/'>http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a>" ),
                       array ( 'Name' => 'LightBox 2',
