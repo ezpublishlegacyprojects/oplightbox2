@@ -10,7 +10,7 @@
 
     <div class="attribute-image"{if is_set($#image_style)} style="{$#image_style}"{/if}>
         <p>
-			<a title="{$alt_text|wash(xhtml)}" href={$node.data_map.image.content.original.url|ezroot()} rel="{ezini('OPLightBoxSettings', 'LightBoxAPI', 'oplightbox2.ini')}[diaporama_{$node.parent.node_id}]">{attribute_view_gui attribute=$node.data_map.image image_class=gallerythumbnail}</a>
+			<a title="{$alt_text|wash(xhtml)}" href={$node.data_map.image.content.original.url|ezroot()} rel="{ezini('OPLightBoxSettings', 'LightBoxAPI', 'oplightbox2.ini')}[diaporama_{$node.parent.node_id}]">{attribute_view_gui attribute=$node.data_map.image image_class=gallerythumbnail lightbox=false()}</a>
 		</p>
     </div>
 
